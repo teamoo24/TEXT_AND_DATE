@@ -5,11 +5,12 @@
   "dependencies": {
     "cordova-plugin-splashscreen": "6.0.0",
     "monaca-plugin-monaca-core": "3.3.1",
+    "pixi.js": "^6.3.0",
     "typescript": "^4.6.3"
   },
   "scripts": {
-    "init":"tsc --init",
-    "watch":"tsc --watch",
+    "init": "tsc --init",
+    "watch": "tsc --watch",
     "monaca:preview": "npm run dev",
     "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
   },
@@ -20,6 +21,7 @@
     }
   },
   "devDependencies": {
+    "@types/pixi.js": "^5.0.0",
     "browser-sync": "~2.27.7",
     "cordova": "^11.0.0"
   }
