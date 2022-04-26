@@ -7,3 +7,6 @@
 ```bash
 npm run watch
 ```
+
+# webpckについて
+一応すべての問いにnoって答えたらそれなりに使えるwebpackになった
